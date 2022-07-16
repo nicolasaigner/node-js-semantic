@@ -1,48 +1,17 @@
 {
   "name": "app",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Examplo de um projeto em NodeJS com Express para realizar versionamentos, commits semanticos e verificacoes de linting",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
-    "commit": "git-cz",
-    "version": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md",
-    "prepublishOnly": "git push && git push --tags && gh-release"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nícolas Aigner",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
   },
-  "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "auto-changelog": "^2.4.0",
-    "commitizen": "^4.2.4",
-    "gh-release": "^6.0.4",
-    "husky": "^8.0.1",
-    "standard-version": "^9.5.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E  HUSKY_GIT_PARAMS"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "subject-case": [
-        2,
-        "never",
-        [
-          "start-case",
-          "pascal-case"
-        ]
-      ]
-    }
-  }
+  "devDependencies": {}
 }
