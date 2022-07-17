@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "0.0.3",
+  "version": "1.0.3",
   "description": "Examplo de um projeto em NodeJS com Express para realizar versionamentos, commits semanticos e verificacoes de linting",
   "main": "index.js",
   "scripts": {
