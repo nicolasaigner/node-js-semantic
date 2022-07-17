@@ -27,7 +27,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "yarn commitlint -E HUSKY_GIT_PARAMS --edit $1",
-      "post-commit": "yarn release"
+      "pre-push": "yarn release && git add package.json CHANGELOG.md && git commit --amend"
     }
   },
   "commitlint": {
