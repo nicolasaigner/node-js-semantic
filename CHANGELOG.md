@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/nicolasaigner/node-js-semantic/compare/v1.1.1...v1.2.0) (2022-07-17)
+
+
+### Features
+
+* test feature ([e716510](https://github.com/nicolasaigner/node-js-semantic/commit/e7165103c4336332d02ac4f3950942bc4e2b4a4f))
+
 ### [1.1.1](https://github.com/nicolasaigner/node-js-semantic/compare/v1.1.0...v1.1.1) (2022-07-17)
 
 ## [1.1.0](https://github.com/nicolasaigner/node-js-semantic/compare/v0.0.3...v1.1.0) (2022-07-17)
