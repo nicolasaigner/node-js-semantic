@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Examplo de um projeto em NodeJS com Express para realizar versionamentos, commits semanticos e verificacoes de linting",
   "main": "index.js",
   "scripts": {
@@ -13,16 +13,5 @@
   "dependencies": {
     "express": "^4.18.1"
   },
-  "devDependencies": {
-    "conventional-github-releaser": "^3.1.5",
-    "git-rev-sync": "^3.0.2",
-    "gulp": "^4.0.2",
-    "gulp-bump": "^3.2.0",
-    "gulp-cli": "^2.3.0",
-    "gulp-conventional-changelog": "^2.0.35",
-    "gulp-git": "^2.10.1",
-    "gulp-util": "^3.0.8",
-    "gulp4-run-sequence": "^1.0.1",
-    "gulp-git-workingclone": "^1.7.0"
-  }
+  "devDependencies": {}
 }
