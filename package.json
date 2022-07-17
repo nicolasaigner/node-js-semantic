@@ -26,7 +26,8 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "yarn commitlint -E HUSKY_GIT_PARAMS --edit $1"
+      "commit-msg": "yarn commitlint -E HUSKY_GIT_PARAMS --edit $1",
+      "post-commit": "yarn release"
     }
   },
   "commitlint": {
