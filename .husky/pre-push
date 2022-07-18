@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# get parameters from git-cz push
+echo "HUSKY_GIT_PARAMS: $HUSKY_GIT_PARAMS"
+echo "@ $@";
+echo "1: $1";
+
