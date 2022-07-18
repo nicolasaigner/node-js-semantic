@@ -1,21 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# Echo all parameters git commit will receive.
-# This is useful for debugging.
-echo "git commit will receive the following parameters:"
-echo "  $@"
-echo "================================================"
-echo "1: $1"
-echo "================================================"
-echo "2: $2"
-
-
-
-#yarn commitlint -E HUSKY_GIT_PARAMS
-#
-#echo "HUSKY_GIT_PARAMS: $HUSKY_GIT_PARAMS"
-
-
-# FAZER UM PRE PUSH E VERIFICAR SE PEGA O PARAMETRO --follow-tags
+yarn commitlint --edit "$@"
 
