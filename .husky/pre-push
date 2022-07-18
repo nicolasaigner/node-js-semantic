@@ -1,13 +1,11 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# get parameters from git-cz push
-echo "HUSKY_GIT_PARAMS: $HUSKY_GIT_PARAMS"
-echo "@ $@";
-echo "1: $1";
-echo "2: $2";
-echo "3: $3";
-echo "4: $4";
-echo "5: $5";
+# Set --follow-tags in pre-push hook
+# This is useful for GitHub Actions
+# See: https://help.github.com/en/actions/automating-your-workflow-with-github-actions/using-environment-variables#using-environment-variables-in-the-action
+if [ "$HUSKY_GIT_PARAMS" = "" ]; then
+  export HUSKY_GIT_PARAMS="--follow-tags"
+fi
 
-exit 1;
+echo "HUSKY_GIT_PARAMS: $HUSKY_GIT_PARAMS"
