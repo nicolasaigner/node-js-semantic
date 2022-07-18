@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/nicolasaigner/node-js-semantic/compare/v1.3.0...v1.3.1) (2022-07-18)
+
+
+### Bug Fixes
+
+* set follow-tags ([025bc12](https://github.com/nicolasaigner/node-js-semantic/commit/025bc1259aec2245396246e7b5c64e6a876c0a33))
+
 ## [1.3.0](https://github.com/nicolasaigner/node-js-semantic/compare/v1.2.1...v1.3.0) (2022-07-18)
 
 
