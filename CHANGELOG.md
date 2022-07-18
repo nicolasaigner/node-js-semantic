@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/nicolasaigner/node-js-semantic/compare/v1.2.1...v1.3.0) (2022-07-18)
+
+
+### Features
+
+* pre-push ([61985ef](https://github.com/nicolasaigner/node-js-semantic/commit/61985efea1f8fa0c04d026a801131f36071c78ec))
+* teste ([8932ecd](https://github.com/nicolasaigner/node-js-semantic/commit/8932ecd1e3c6cc7ac913501a67eb0f1e091f9221))
+* teste pre-push ([c8810c1](https://github.com/nicolasaigner/node-js-semantic/commit/c8810c192b1336f9228c694f1f0eabc1bb6e813d))
+
+
+### Bug Fixes
+
+* teste fix ([c29616b](https://github.com/nicolasaigner/node-js-semantic/commit/c29616bf91e178431407151aadc3701eb7a655c4))
+
 ### [1.2.1](https://github.com/nicolasaigner/node-js-semantic/compare/v1.2.0...v1.2.1) (2022-07-17)
 
 ## [1.2.0](https://github.com/nicolasaigner/node-js-semantic/compare/v1.1.1...v1.2.0) (2022-07-17)
