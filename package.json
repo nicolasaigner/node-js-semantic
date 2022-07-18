@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "prepare": "husky install",
-    "release": "standard-version -a",
+    "release": "standard-version",
     "commit": "git-cz"
   },
   "keywords": [],
@@ -23,6 +23,12 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "^8.0.1",
     "standard-version": "^9.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "yarn commitlint -E HUSKY_GIT_PARAMS --edit $1",
+      "pre-push": "yarn release && HUSKY=0 git push --follow-tags origin $(git rev-parse --abbrev-ref HEAD)"
+    }
   },
   "commitlint": {
     "extends": [
