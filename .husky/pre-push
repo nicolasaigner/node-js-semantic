@@ -1,18 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-# standard-version -a && git push --follow-tags origin main
 
-
-HUSKY_DEBUG=1
-# Get actually branch name.
-# This is useful for debugging.
-BRANCH="$(git rev-parse --abbrev-ref HEAD)"
-
-# Set --follow-tags in pre-push hook
-# This is useful for GitHub Actions
-# See: https://help.github.com/en/actions/automating-your-workflow-with-github-actions/using-environment-variables#using-environment-variables-in-the-action
-if [ "$HUSKY_GIT_PARAMS" = "" ]; then
-  export HUSKY_GIT_PARAMS="--follow-tags origin ${BRANCH}"
-fi
-
-echo "HUSKY_GIT_PARAMS: $HUSKY_GIT_PARAMS"
+yarn release
